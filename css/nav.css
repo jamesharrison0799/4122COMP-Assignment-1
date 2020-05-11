@@ -1,0 +1,88 @@
+.nav-container{
+  align-items: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-container ul{
+  list-style-type: none;
+  padding: 0px;
+  color: black;
+  text-decoration: none;
+}
+
+.content{
+  margin-top: 15vh;
+  padding: 10px;
+  align-items: center;
+}
+
+.content a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.left{
+  text-align:center;
+  position: relative;
+  width: 45%;
+  float: left;
+  align-items: center;
+}
+
+
+.right{
+  text-align:center;
+  position: relative;
+  width: 45%;
+  float: right;
+}
+
+.right img{
+  width: 95%;
+  height:auto;
+}
+.button_container{
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+}
+.button_container button {
+  border-radius: 10px;
+  background-color: rgb(229, 160, 1);
+  position:relative;
+  align-items: center;
+  width: 30%;
+  height: 50%;
+  font-family: vogue;
+  color: #fff;
+}
+
+.content h1{
+  font-size: 48px;
+  font-family: vogue;
+}
+.content h2{
+  font-size: 32px;
+  font-family: vogue;
+}
+
+.game-list{
+  font-size: 32px;
+  height: 35vh;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  overflow:auto;
+  direction:rtl;
+}
+.game-list ul{
+  overflow:auto;
+}
+
+.game-list li{
+  padding: 10px;
+}
