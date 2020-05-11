@@ -65,8 +65,17 @@
           <ul>
             <li><h3>Rating</h3></li>
             <li><h4><?=$game->rating;?>/5</h4></li>
+            <li><h3>Genre</h3></li>
+            <li><h4><?=$game->genre;?></h4></li>
             <li><h3>Price</h3></li>
-            <li><h4>£<?=$game->price;?></h4></li>
+            <?php
+              if($game->price == '0'){
+                echo "<li><h4>Free to Play!</h4></li>";
+              }else{
+                echo "<li><h4>£".$game->price."</h4></li>";
+              }
+
+             ?>
             <li><h3>GAME LINK</h3></li>
             <li>
               <a href="<?=$game->link;?>" target="_blank">

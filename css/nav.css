@@ -16,7 +16,7 @@
 }
 
 .content{
-  margin-top: 15vh;
+  margin-top: 300vh;
   padding: 10px;
   align-items: center;
 }
@@ -73,7 +73,7 @@
 
 .game-list{
   font-size: 32px;
-  height: 35vh;
+  height: 25vh;
   text-align: center;
   padding: 15px 0px 15px 0px;
   overflow:auto;

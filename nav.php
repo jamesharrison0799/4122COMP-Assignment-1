@@ -62,8 +62,9 @@
             </div>
           </li>
           <li><img src="assests\menu_divider.png" alt="menu divider"></li>
-          <li><a href="#"><h2>CONTACT</h2></a></li>
-          <li><a href="#"><h2>ABOUT</h2></a></li>
+          <li><a href="https://twitter.com/GenericGamesLPL"><h2>CONTACT</h2></a></li>
+          <li><a href="about.html"><h2>ABOUT</h2></a></li>
+          <li><a href="http://discord.mesa.gg"><h2>DISCORD</h2></a></li>
        </ul>
       </div>
       <div class="content right">
