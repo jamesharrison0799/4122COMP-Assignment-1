@@ -6,9 +6,6 @@
   <title>Navigation - GGR</title>
   <link rel="icon" href="assests\icon_exsmal.png">
 
-  <!-- Fonts -->
-  <link rel="stylesheet" href="\fonts\fonts.css">
-
   <!-- stylesheets -->
   <link rel="stylesheet" href="/css/master.css">
   <link rel="stylesheet" href="/css/nav.css">
@@ -31,6 +28,7 @@
         $game->setProps($row['ID'],$row['Name'],$row['Price'],$row['Rating'],$row['isGotW'],$row['Genre'],$row['short_desc'],$row['review'],$row['link']);
         array_push($games,$game);
       }
+      ChromePhp::log($games);
 
     }else {
       ChromePhp::Log("No data was found");

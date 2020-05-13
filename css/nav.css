@@ -1,3 +1,4 @@
+
 .nav-container{
   align-items: center;
   width: 60%;
@@ -16,7 +17,7 @@
 }
 
 .content{
-  margin-top: 300vh;
+  margin-top: 15vh;
   padding: 10px;
   align-items: center;
 }
@@ -33,7 +34,6 @@
   float: left;
   align-items: center;
 }
-
 
 .right{
   text-align:center;
